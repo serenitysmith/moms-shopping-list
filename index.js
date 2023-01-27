@@ -43,6 +43,53 @@ button.addEventListener("click", function (e) {
         newInput.focus();
         newInput.value = oldText;
         li.children[0].appendChild(newInput);
+        // <input type="button" value="save my edits" onclick="saveEdits()"/>
+        
+
+
+        // document.createElement("button")
+        // li.children[0].appendChild(saveB)
+        // var saveB = document.createTextNode(myList.value)
+    
+    
+    
+        //   var saveB = document.createElement("button")
+    //   var saveB = document.createElement("button")
+    //   var saveB = document.createElement('button ');
+    //   var saveB = document.createTextNode(myList.value)
+    //   newP.appendChild(newPtext)
+    //   newDiv.appendChild(newP);
+    //   li.children[0].appendChild(saveB)
+
+
+
+
+        // var editButton = listItem.querySelector("newEditbutton");
+
+        // if(containsClass) {
+        //     label.innerText = editInput.value;
+        //     newEditButton.textContent = "Edit";
+        //   } else {
+        //     editInput.value = label.innerText;
+        //     editButton.textContent = "Save";
+        //   }
+
+
+
+        
+        // var newInput = listItem.querySelector(newEditButton)[0];
+        // if (containsClass) {
+        //     //switch from .editMode
+        //     //label text becomes input value.
+        //     label.innerText = editInput.value;
+        //    newEditButton.innerText = "Edit";  //<----- This is what you need to add
+        //   } else {
+        //     //switch to edit mode
+        //     //input value becomes label's text.
+        //     editInput.value = label.innerText;
+        //    newEditButton.innerText = "Save"; //<--------------- Add this also
+        //   }
+
         //localStorage.setItem("list", "newInput");
 
 
