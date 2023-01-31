@@ -23,6 +23,7 @@
 #list > li{
     list-style-type: none;
     margin: 20px auto;
-    color: rgb(221, 28, 28);
+    color: rgb(120, 17, 118);
+    font-size: larger;
 }
 
