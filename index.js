@@ -61,6 +61,8 @@ button.addEventListener("click", function (e) {
         li.children[0].children[0].appendChild(saveButton)
         // added event listener for save button
         saveButton.addEventListener('click', function (e) {
+            // added etit button back
+            newEditButton.style.display = "inline"
             // hiding save button
             saveButton.style.display = 'none'
             // grabbed value from input box
