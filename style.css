@@ -1,10 +1,12 @@
 
-
+#header {
+    color: violet;
+}
 
 .input {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -20,10 +22,7 @@
 
 #list > li{
     list-style-type: none;
-    margin: 10px auto;
+    margin: 20px auto;
+    color: rgb(221, 28, 28);
 }
 
-#list div {
-    margin-bottom: 10px;
-    text-align: center;
-}
